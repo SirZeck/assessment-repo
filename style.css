@@ -1,5 +1,151 @@
-body {
+* {
+    box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    height: 1200px;
+    width: 1234px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 1em;
+}
+
+.box {
+    height: 1200px;
+    width: 400px;
+    margin: 1em;
+    float: left;
+}
+
+/* box 1 */ 
+.box11 {
+    height: 100%;
+    width: 50%;
+    background: blue;
+    box-sizing: border-box;
+    float: left;
+}
+
+.a1 {
+    padding: 0.5em;
+}
+
+.b1 {
+    padding: 0.5em;
+}
+
+.inbox1 {
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+
+/* box 2 */
+.box21 {
+    height: 50%;
+    width: 100%;
+    background: blue;
+    box-sizing: border-box;
+    float: left;
+}
+
+.a2 {
+    padding: 0.5em;
+}
+
+.b2 {
+    padding: 0.5em;
+}
+
+.inbox2 {
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+
+/* box 3 */
+.box31 {
+    height: 50%;
+    width: 50%;
+    background: blue;
+    box-sizing: border-box;
+    float: left;
+}
+
+.a3 {
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.b3 {
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+.c3 {
+    padding-top: 1em;
+    padding-right: 1em;
+}
+
+.d3 {
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.inbox3 {
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+
+
+
+@media screen and (max-width: 768){
+	.box{
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 769px){
+	.box{
+		width: 30%;
+	}
+}
+
+/*Floating Back-To-Top Button*/
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    float: left;
+    right: 20%;
+    left: 90%;
+    max-width: 70px;
+    max-height: 30px;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: .5px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #7dbbf1;
 }
