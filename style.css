@@ -118,14 +118,6 @@ h1 {
 	}
 }
 
-@media screen and (max-width: 768){
-	.box11{
-		display: flex;
-        flex-direction: column;
-        float: none;
-	}
-}
-
 /*Floating Back-To-Top Button*/
 #myBtn {
     position: fixed;
