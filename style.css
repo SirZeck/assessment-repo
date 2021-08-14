@@ -27,7 +27,7 @@ h1 {
 }
 
 .box {
-    height: 1200px;
+    height: 600px;
     width: 50%;
     margin: 1em;
     box-sizing: border-box;
@@ -65,22 +65,36 @@ h1 {
 /* box 2 */
 .box21 {
     height: 50%;
-    width: 100%;
+    width: 50%;
     background: blue;
     box-sizing: border-box;
     float: left;
 }
 
 .a2 {
-    padding: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 0.5em;
 }
 
 .b2 {
-    padding: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 1em;
 }
 
-.c3 {
-    padding: 0.5em;
+.c2 {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+.d2 {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    padding-right: 1em;
 }
 
 /* box 3 */
