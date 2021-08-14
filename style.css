@@ -10,7 +10,8 @@ body {
     padding: 0px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h1 {
     width: 100%;
     box-sizing: border-box;
     text-align: center;
-    margin: 1em;
+    
 }
 
 .box {
