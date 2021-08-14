@@ -29,6 +29,7 @@ h1 {
     height: 1200px;
     width: 50%;
     margin: 1em;
+    box-sizing: border-box;
     float: left;
     flex-direction: column;
 }
@@ -45,6 +46,8 @@ h1 {
     width: 50%;
     background: blue;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     float: left;
 }
 
@@ -111,6 +114,14 @@ h1 {
 @media screen and (min-width: 769px){
 	.box{
 		width: 30%;
+	}
+}
+
+@media screen and (max-width: 768){
+	.box11{
+		display: flex;
+        flex-direction: column;
+        float: none;
 	}
 }
 
